@@ -132,6 +132,13 @@ body{
 	border-color: #20b99b;
 }
 
+.button-tabl-synth{
+	background-color: white;
+	color: #20b99b;
+	border-color: #20b99b;
+	margin-bottom: 40px;
+}
+
 .button-cv:hover{
 	background-color: white;
 	color: #7b898b;
