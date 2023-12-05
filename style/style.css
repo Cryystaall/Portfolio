@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+body{
+    background-color: #efefef;
+}
+.navbar{
+    margin-bottom: 50px;
+}
+
+.d-flex i{
+    padding-right: 20px;
+    color: white;
+}
+.d-flex i:hover{
+    color: #20b99b;
+}
+
+.fa-moon{
+    margin-left: 40px;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-menu-nav{
+    background-color: #7b898b;
+}
+
+.dropdown-item-nav:hover{
+    background-color: #20b99b;
+}
+
+.dropdown-menu-doc{
+	background-color:#20b99b;
+	font-size: 16px;
+}
+
+.dropdown-item-doc:hover{
+	background-color:#7b898b;
+}
+
+.title_name_color{
+    color: #20b99b;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 200;
+}
+
+.title_presentation-h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.title_presentation-h2{
+    font-size: 35px;
+}
+
+.title_section h1{
+    font-size: 25px;
+    display: flex;
+    text-align: left;
+    font-family: Inconsolata;
+    background: #20b99b;
+    color: #ffffff;
+    width: 35%;
+    padding: 5px 20px 5px;
+    margin: 100px 0px 50px;
+    border-color: #20b99b;
+    border-style: solid;
+    border-radius: 0px 93px 93px 0px;
+    box-shadow: 0px 5px 10px 2px #56978c;
+}
+ 
+.file-cv {
+	margin-right: 10px;
+}
+
+.cartes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header {
+	color: white;
+	background-color: #7b898b;
+}
+
+.card-header i{
+	padding-right: 20px;
+	color: white;
+}
+
+.card-title {
+	color: black;
+}
+
+.card-title i{
+	padding-right: 10px;
+}
+
+.card-body{
+	background-color: white;
+}
+
+.card-text{
+	color: black;
+}
+
+.logo-primeum{
+	width: 110%;
+}
+
+.logo-text{
+	display: flex;
+	align-items: center;
+}
+
+.logo-text p{
+	margin-bottom: 0px;
+	margin-left: 10%;
+}
+
+.file-cv{
+	color: #20b99b;
+}
+
+.button-cv{
+	background-color: white;
+	color: #20b99b;
+	border-color: #20b99b;
+}
+
+.button-cv:hover{
+	background-color: white;
+	color: #7b898b;
+	border-color: #20b99b;
+}
+
+.logo-timetracking{
+	width: 60%;
+	margin: 20px 0px 20px;
+	text-align: center;
+}
+
+.center-card-img{
+	text-align: center;
+}
+
+.project-cards{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6%;
+	justify-content: center;
+	
+}
+
+.projects-card-title{
+	font-size: 20px;
+}
+
+.img-projects{
+	max-width: 100%;
+	margin: 20px 0px 20px;
+}
+
+.progress{
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.pt-100{
+    padding-top:100px;
+}
+.pb-100{
+    padding-bottom:100px;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title p {
+	color: #7b898b;
+	font-size: 16px;
+}
+.section-title h4 {
+	text-transform: capitalize;
+	font-size: 30px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.section-title h4:before {
+	position: absolute;
+	content: "";
+	width: 60px;
+	height: 2px;
+	background-color: #20b99b;
+	bottom: 0;
+	left: 50%;
+	margin-left: -30px;
+}
+.section-title h4:after {
+	position: absolute;
+	background-color: #20b99b;
+	content: "";
+	width: 10px;
+	height: 10px;
+	bottom: -4px;
+	left: 50%;
+	margin-left: -5px;
+	border-radius: 50%;
+}
+ul.timeline-list {
+	position: relative;
+	margin: 0;
+	padding: 0
+}
+ul.timeline-list:before {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 100%;
+	background-color: #20b99b;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+ul.timeline-list li {
+	position: relative;
+	clear: both;
+	display: table;
+}
+.timeline_content {
+	border: 2px solid #20b99b;
+	background-color:#fff
+}
+ul.timeline-list li .timeline_content {
+	width: 45%;
+	color: #333;
+	padding: 25px;
+	float: left;
+	text-align: right;
+}
+ul.timeline-list li:nth-child(2n) .timeline_content {
+	float: right;
+	text-align: left;
+}
+
+.timeline_content h4 {
+	font-size: 20px;
+	color:#7b898b;
+	margin: 10px 0;
+}
+
+.timeline-list li {
+	width: 1293px;
+}
+
+.timeline_content h3 {
+	font-size: 25px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+ul.timeline-list li:before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	background-color: #20b99b;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+.timeline_content span {
+	font-size: 20px;
+	font-weight: 500;
+	font-family: poppins;
+	color: #20b99b;
+}
