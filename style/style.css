@@ -108,6 +108,10 @@ body{
 	color: black;
 }
 
+.card p{
+	min-height: 120px;
+}
+
 .logo-primeum{
 	width: 110%;
 }
@@ -132,6 +136,12 @@ body{
 	border-color: #20b99b;
 }
 
+.button-cv:hover{
+	background-color: white;
+	color: #7b898b;
+	border-color: #20b99b;
+}
+
 .button-tabl-synth{
 	background-color: white;
 	color: #20b99b;
@@ -139,7 +149,7 @@ body{
 	margin-bottom: 40px;
 }
 
-.button-cv:hover{
+.button-tabl-synth:hover{
 	background-color: white;
 	color: #7b898b;
 	border-color: #20b99b;
@@ -159,8 +169,6 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 6%;
-	justify-content: center;
-	
 }
 
 .projects-card-title{
@@ -183,20 +191,23 @@ body{
 
 
 
-
 .pt-100{
     padding-top:100px;
 }
+
 .pb-100{
     padding-bottom:100px;
 }
+
 .section-title {
   margin-bottom: 60px;
 }
+
 .section-title p {
 	color: #7b898b;
 	font-size: 16px;
 }
+
 .section-title h4 {
 	text-transform: capitalize;
 	font-size: 30px;
@@ -205,6 +216,7 @@ body{
 	margin-bottom: 20px;
 	font-weight: 600;
 }
+
 .section-title h4:before {
 	position: absolute;
 	content: "";
@@ -215,6 +227,7 @@ body{
 	left: 50%;
 	margin-left: -30px;
 }
+
 .section-title h4:after {
 	position: absolute;
 	background-color: #20b99b;
@@ -226,11 +239,13 @@ body{
 	margin-left: -5px;
 	border-radius: 50%;
 }
+
 ul.timeline-list {
 	position: relative;
 	margin: 0;
 	padding: 0
 }
+
 ul.timeline-list:before {
 	position: absolute;
 	content: "";
@@ -242,15 +257,18 @@ ul.timeline-list:before {
 	-webkit-transform: translateX(-50%);
 	        transform: translateX(-50%);
 }
+
 ul.timeline-list li {
 	position: relative;
 	clear: both;
 	display: table;
 }
+
 .timeline_content {
 	border: 2px solid #20b99b;
 	background-color:#fff
 }
+
 ul.timeline-list li .timeline_content {
 	width: 45%;
 	color: #333;
@@ -258,6 +276,7 @@ ul.timeline-list li .timeline_content {
 	float: left;
 	text-align: right;
 }
+
 ul.timeline-list li:nth-child(2n) .timeline_content {
 	float: right;
 	text-align: left;
@@ -267,10 +286,6 @@ ul.timeline-list li:nth-child(2n) .timeline_content {
 	font-size: 20px;
 	color:#7b898b;
 	margin: 10px 0;
-}
-
-.timeline-list li {
-	width: 1293px;
 }
 
 .timeline_content h3 {
@@ -291,6 +306,7 @@ ul.timeline-list li:before {
 	        transform: translate(-50%, -50%);
 	border-radius: 50%;
 }
+
 .timeline_content span {
 	font-size: 20px;
 	font-weight: 500;
